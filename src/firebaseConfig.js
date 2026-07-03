@@ -3,12 +3,12 @@
 // These values are safe to be public in client code — access is controlled by
 // the Firestore security rules (see firestore.rules) and Firebase Auth, not by secrecy of this config.
 export const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyBEWSF1iOkHU86uJ0aOvS6osGN5dV8AeA8",
+  authDomain: "oc-restaurant.firebaseapp.com",
+  projectId: "oc-restaurant",
+  storageBucket: "oc-restaurant.firebasestorage.app",
+  messagingSenderId: "934458755892",
+  appId: "1:934458755892:web:6995717ea62a337fda7361",
 };
 
 export const isFirebaseConfigured = firebaseConfig.apiKey !== "YOUR_API_KEY";
