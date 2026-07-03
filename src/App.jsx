@@ -50,15 +50,15 @@ const RESTAURANTS = [
   { id: 28, name: "Phở Good", area: "Garden Grove", type: "Phở", time: "11:30 AM–1:00 PM", note: "" },
   { id: 29, name: "Phở Flavor", area: "Santa Ana, CA 92703", type: "Phở", time: "11:30 AM–1:00 PM", note: "" },
   { id: 30, name: "Phở Tàu Bay", area: "Hazard Ave", type: "Phở", time: "7:00–9:00 AM", note: "Legacy phở house — go early like locals" },
-  { id: 31, name: "Phở 79", area: "2 locations (confirm)", type: "Phở", time: "11:30 AM–1:00 PM", note: "Confirm both addresses before visiting" },
-  { id: 32, name: "Phở 54", area: "Multiple locations", type: "Phở", time: "11:30 AM–1:00 PM", note: "Confirm which location" },
-  { id: 33, name: "Phở Lovers", area: "Multiple locations", type: "Phở", time: "11:30 AM–1:00 PM", note: "Confirm which location" },
+  { id: 31, name: "Phở 79", area: "Hazard Ave", type: "Phở", time: "11:30 AM–1:00 PM", note: "9941 Hazard Ave, Garden Grove — the original, most iconic location. (2nd location: 8894 Bolsa Ave, Westminster)" },
+  { id: 32, name: "Phở 54", area: "Garden Grove", type: "Phở", time: "11:30 AM–1:00 PM", note: "10240 Westminster Ave Ste 101, Garden Grove. (Also at 15420 Brookhurst St, Westminster)" },
+  { id: 33, name: "Phở Lovers", area: "Bolsa Ave", type: "Phở", time: "11:30 AM–1:00 PM", note: "9325 Bolsa Ave, Westminster. (Also at 9892 Westminster Blvd, Garden Grove)" },
   { id: 34, name: "Phở Thiên", area: "Bolsa Ave", type: "Phở", time: "11:30 AM–1:00 PM", note: "" },
   { id: 35, name: "Phở Hồng Hương", area: "Garden Grove", type: "Phở", time: "11:30 AM–1:00 PM", note: "" },
   { id: 36, name: "Phở Lú", area: "Westminster Ave", type: "Phở", time: "11:30 AM–1:00 PM", note: "" },
   { id: 37, name: "Ocean Hy Restaurant", area: "Bolsa", type: "Sit-down / seafood", time: "5:00–7:00 PM", note: "" },
   { id: 38, name: "Tiệm Mì Quốn", area: "Garden Grove", type: "Noodle", time: "11:30 AM–1:00 PM", note: "" },
-  { id: 39, name: "Hương Vietnamese Restaurant", area: "Unconfirmed", type: "Sit-down", time: "2:00–4:00 PM weekday", note: "" },
+  { id: 39, name: "Hương Việt Restaurant", area: "Garden Grove", type: "Sit-down", time: "2:00–4:00 PM weekday", note: "10254 Westminster Ave, Garden Grove — closest name match found; confirm this is the one you meant" },
   { id: 40, name: "Miền Tây Ocean", area: "Bolsa", type: "Sit-down / seafood", time: "5:00–7:00 PM", note: "" },
 ];
 
@@ -75,9 +75,6 @@ const AREA_ORDER = [
   "Hazard Ave",
   "Beach Blvd, Stanton CA",
   "To-go only",
-  "Multiple locations",
-  "2 locations (confirm)",
-  "Unconfirmed",
 ];
 
 const STATUS = {
