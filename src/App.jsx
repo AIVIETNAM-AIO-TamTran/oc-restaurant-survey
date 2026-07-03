@@ -299,8 +299,8 @@ export default function SurveyChecklist() {
                   }}
                 >
                   <Icon size={14} color={s.color} strokeWidth={2.3} />
-                  <span style={{ color: "#4a3f34" }}>{s.label}</span>
-                  <span style={{ color: "#8a7a6d", fontVariantNumeric: "tabular-nums" }}>
+                  <span style={{ color: "#f3e9d8" }}>{s.label}</span>
+                  <span style={{ color: "#e8c48a", fontWeight: 700, fontVariantNumeric: "tabular-nums" }}>
                     {counts[key]}
                   </span>
                 </button>
